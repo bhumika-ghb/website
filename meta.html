@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="icon" href="./TSRTC.png" type="image/x-icon">
+    <center>
+    <marquee behaviour="scroll" direction="right">Welcome to registration</marquee>
+    </center>
+    <style>
+        body{
+            background-image: url('./green.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body style="background-image:url('./green.jpg')" width="100px">
+    <center>
+    
+    <form action="./buspass2.html" >
+    <label for="user" >FirstName:</label>
+    <input type="text" name="FirstName" id="user" placeholder="Enter your name" pattern="[a-z ]+" required><br><Br>
+    <label for="user">LastName:</label>
+    <input type="text" name="LastName" id="user" placeholder="Enter your name" pattern="[a-z]+"><br><br>
+    <label for="user">Email:</label>
+    <input type="text" name="Email" id="user" placeholder="Enter your Email" pattern="[a-z 0-9 . !@#$%&]+@[a-z]{5}.[a-z][2,4]" required><br><br>
+    <label for="user"> Create Password:</label>
+    <input type="password" name=" Create Password" id="user" placeholder="" pattern="[a-z 0-9 !@#%]"><br><br>
+    <label for="user">Confirm Password:</label>
+    <input type="password" name="Confirm Password" placeholder=""><br><br>
+    <label for="text">Mobile No</label>
+    <input type="text" name="Mobile No" id="user" placeholder="Enter your mobileNo" pattern="[0-9]"><br><br>
+    <label for="">Gender:</label>
+    <input type="radio" id="Female" name="gender" value="Female">
+    <label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">male</label><br><br>
+    <input type="submit" value="submit">
+    </form>
+    </center>
+    
+</body>
+</html>
